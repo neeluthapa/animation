@@ -1,0 +1,14 @@
+div{
+    border: 2px solid plum;
+    height: 50px;
+    width: 50px;
+    border-radius: 70px;
+    position: absolute;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes move {
+form{ left: 0px;background-color: aqua;}
+to{left:200px;background-color: blue;}    
+}
